@@ -1,11 +1,11 @@
-# RowanSample10 - spec_0000
-Empty project with no packages
+# RowanSample10 - spec_0001
+Create a bare bones package structure -Core and -Tests, the tests should validate the loaded state of project. Start with spec_0000 and add spec_0001 meat to the bones. This project is intended to be used as an external required project for RowanSample9
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0000',
+	#specName : 'spec_0001',
 	#projectName : 'RowanSample10',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample10.git',
-	#revision : 'spec_0000',
+	#revision : 'spec_0001',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,17 +20,19 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Empty project with no packages'
+	#comment : 'Create a bare bones package structure -Core and -Tests, the tests should validate the loaded state of project. Start with spec_0000 and add spec_0001 meat to the bones. This project is intended to be used as an external required project for RowanSample9'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0000',
-	#title : 'Empty project with no packages',
-	#specName : 'spec_0000',
-	#index : 0,
-	#derivedFrom : 'master',
-	#comment : '',
-	#rowanIssues : [ ],
+	#name : 'index_0001',
+	#title : 'Create a bare bones package structure -Core and -Tests, the tests should validate the loaded state of project. Start with spec_0000 and add spec_0001 meat to the bones. This project is intended to be used as an external required project for RowanSample9',
+	#specName : 'spec_0001',
+	#index : 1,
+	#derivedFrom : 'spec_0000',
+	#comment : 'One class per package: RowanSample10-Core and RowanSample10-Tests packages ... External project for RowanSample9',
+	#rowanIssues : [
+		668
+	],
 	#gemstoneIssues : [ ],
 	#rowanSHA : 'd4e4dcef'
 }
