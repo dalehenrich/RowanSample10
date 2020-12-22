@@ -1,5 +1,5 @@
 # RowanSample10
-Sample project that is being used to develop the **final** version of the V2.0 project handling API.
+Sample project that is being used as an example required external project for use in RowanSample9.
 ## Summary of Load Specs
 ### spec_0000
 ```
