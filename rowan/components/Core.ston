@@ -2,7 +2,9 @@ RwSimpleProjectLoadComponentV2 {
 	#name : 'Core',
 	#condition : 'common',
 	#projectNames : [ ],
-	#componentNames : [ ],
+	#componentNames : [
+		'mytests/Tests'
+	],
 	#packageNames : [
 		'RowanSample10-Core'
 	],
