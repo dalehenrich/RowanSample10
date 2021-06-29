@@ -1,7 +1,7 @@
 # RowanSample10
 Sample project that is being used as an example required external project for use in RowanSample9.
 ## Summary of Load Specs
-### spec_0000
+### [spec_0000](https://github.com/dalehenrich/RowanSample10/tree/spec_0000)
 ```
 RwLoadSpecificationV2 {
 	#specName : 'spec_0000',
@@ -37,7 +37,7 @@ RwTestProjectLibraryIndexCard {
 	#rowanSHA : 'd4e4dcef'
 }
 ```
-### spec_0001
+### [spec_0001](https://github.com/dalehenrich/RowanSample10/tree/spec_0001)
 ```
 RwLoadSpecificationV2 {
 	#specName : 'spec_0001',
@@ -75,7 +75,7 @@ RwTestProjectLibraryIndexCard {
 	#rowanSHA : 'd4e4dcef'
 }
 ```
-### spec_0002
+### [spec_0002](https://github.com/dalehenrich/RowanSample10/tree/spec_0002)
 ```
 RwLoadSpecificationV2 {
 	#specName : 'spec_0002',
@@ -113,7 +113,7 @@ RwTestProjectLibraryIndexCard {
 	#rowanSHA : 'b0ef8b25'
 }
 ```
-### spec_0003
+### [spec_0003](https://github.com/dalehenrich/RowanSample10/tree/spec_0003)
 ```
 RwLoadSpecificationV2 {
 	#specName : 'spec_0003',
@@ -151,7 +151,7 @@ RwTestProjectLibraryIndexCard {
 	#rowanSHA : '80c5d4e8'
 }
 ```
-### spec_0004
+### [spec_0004](https://github.com/dalehenrich/RowanSample10/tree/spec_0004)
 ```
 RwLoadSpecificationV2 {
 	#specName : 'spec_0004',
