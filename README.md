@@ -1,11 +1,11 @@
-# RowanSample10 - spec_0001
-Create a bare bones package structure -Core and -Tests, the tests should validate the loaded state of project. Start with spec_0000 and add spec_0001 meat to the bones. This project is intended to be used as an external required project for RowanSample9
+# RowanSample10 - spec_0005
+Start with spec_0001 and change the tests attribute to mytests.
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0001',
+	#specName : 'spec_0005',
 	#projectName : 'RowanSample10',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample10.git',
-	#revision : 'spec_0001',
+	#revision : 'spec_0005',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
@@ -20,21 +20,21 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Create a bare bones package structure -Core and -Tests, the tests should validate the loaded state of project. Start with spec_0000 and add spec_0001 meat to the bones. This project is intended to be used as an external required project for RowanSample9'
+	#comment : 'Start with spec_0001 and change the tests attribute to mytests.'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0001',
-	#title : 'Create a bare bones package structure -Core and -Tests, the tests should validate the loaded state of project. Start with spec_0000 and add spec_0001 meat to the bones. This project is intended to be used as an external required project for RowanSample9',
-	#specName : 'spec_0001',
-	#index : 1,
-	#derivedFrom : 'spec_0000',
-	#comment : 'One class per package: RowanSample10-Core and RowanSample10-Tests packages ... External project for RowanSample9',
+	#name : 'index_0005',
+	#title : 'Start with spec_0001 and change the tests attribute to mytests.',
+	#specName : 'spec_0005',
+	#index : 5,
+	#derivedFrom : 'spec_0001',
+	#comment : 'Start with spec_0001 and RowanSample9Class1>>foo extension ... that collides with existing packaged method in RowanSampe1 project when loaded on top of previously loaded RowanSample1:spec_0001',
 	#rowanIssues : [
-		668
+		545
 	],
 	#gemstoneIssues : [ ],
-	#rowanSHA : 'd4e4dcef'
+	#rowanSHA : 'ffd3ca495'
 }
 ```
 
