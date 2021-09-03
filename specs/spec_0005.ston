@@ -1,0 +1,21 @@
+RwLoadSpecificationV2 {
+	#specName : 'spec_0005',
+	#projectName : 'RowanSample10',
+	#gitUrl : 'git@github.com:dalehenrich/RowanSample10.git',
+	#revision : 'spec_0005',
+	#projectSpecFile : 'rowan/project.ston',
+	#componentNames : [
+		'Core'
+	],
+	#customConditionalAttributes : [
+		'tests'
+	],
+	#platformProperties : {
+		'gemstone' : {
+			'allusers' : {
+				#defaultSymbolDictName : 'RowanSample9_1'
+			}
+		}
+	},
+	#comment : 'Start with spec_0001 and change the tests attribute to mytests.'
+}
