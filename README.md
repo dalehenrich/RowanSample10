@@ -1,5 +1,5 @@
 # RowanSample10 - spec_0005
-Start with spec_0001 and change the tests attribute to mytests.
+Start with spec_0001 and RowanSample9Class1>>foo extension ... that collides with existing packaged method in RowanSampe1 project when loaded on top of previously loaded RowanSample1:spec_0001
 ```
 RwLoadSpecificationV2 {
 	#specName : 'spec_0005',
@@ -20,12 +20,12 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Start with spec_0001 and change the tests attribute to mytests.'
+	#comment : 'Start with spec_0001 and RowanSample9Class1>>foo extension ... that collides with existing packaged method in RowanSampe1 project when loaded on top of previously loaded RowanSample1:spec_0001'
 }
 
 RwTestProjectLibraryIndexCard {
 	#name : 'index_0005',
-	#title : 'Start with spec_0001 and change the tests attribute to mytests.',
+	#title : 'Start with spec_0001 and RowanSample9Class1>>foo extension ... that collides with existing packaged method in RowanSampe1 project when loaded on top of previously loaded RowanSample1:spec_0001',
 	#specName : 'spec_0005',
 	#index : 5,
 	#derivedFrom : 'spec_0001',
